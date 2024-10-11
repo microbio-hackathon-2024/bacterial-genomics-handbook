@@ -1,0 +1,8 @@
+- term: Heuristic
+  definition: "A means of estimating a quality or characteristic without calculating it directly."
+  url: >
+    {{ site.baseurl }}/glossary/heuristic
+- term: Reference
+  definition: "A single selected genomic assembly to which reads or assemblies from other samples will be aligned to."
+  url: >
+    {{ site.baseurl }}/glossary/reference

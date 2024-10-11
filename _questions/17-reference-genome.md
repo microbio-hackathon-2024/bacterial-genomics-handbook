@@ -5,9 +5,12 @@ categories: question
 step: data_preparation
 ---
 
+To be able to compare samples, it is mandatory to pick a {% glossary reference %} to be able to use reference-based methods. The choice of a 
+reference must be done according to several criteria.
+
 ## Completeness
 
-Prioritize a reference genome with minimal gaps or Ns to avoid mapping issues and ensure accurate variant calling.
+Prioritize a genome with minimal gaps or Ns to avoid mapping issues and ensure accurate variant calling.
 
 ## Relevance
 
@@ -31,4 +34,4 @@ Use the latest version of the reference genome to benefit from improved assembly
 
 ## Warnings
 
-Take note of any warning listed for the reference, databases like NCBI will list warnings for a reference if it doesn’t meet certain criteria
+Take note of any warning listed for the reference, databases like NCBI will list warnings for a reference if it doesn’t meet certain criteria.

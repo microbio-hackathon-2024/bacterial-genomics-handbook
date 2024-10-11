@@ -42,6 +42,8 @@ GEM
       safe_yaml (~> 1.0)
     jekyll-feed (0.17.0)
       jekyll (>= 3.7, < 5.0)
+    jekyll-glossary_tooltip (1.5.0)
+      jekyll (>= 3.7, < 5.0)
     jekyll-material-theme (0.4.0)
       jekyll (~> 3.5)
     jekyll-sass-converter (1.5.2)
@@ -100,6 +102,7 @@ DEPENDENCIES
   http_parser.rb (~> 0.6.0)
   jekyll (~> 3.9.3)
   jekyll-feed (~> 0.6)
+  jekyll-glossary_tooltip (~> 1.5)
   jekyll-material-theme
   kramdown-parser-gfm
   material-jekyll-theme (~> 0.0.2)

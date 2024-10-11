@@ -2,7 +2,7 @@
 layout: page
 title:  "What is your data?"
 categories: question
-step: qc
+step: data_preparation
 ---
 
 - FASTQ Reads (Short/Long reads)

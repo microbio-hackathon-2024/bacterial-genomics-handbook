@@ -46,3 +46,5 @@ gem "atlas", "~> 2.0"
 
 gem "jekyll-material-theme"
 gem "material-jekyll-theme", "~> 0.0.2"
+
+gem "jekyll-glossary_tooltip", "~> 1.5", :group => :jekyll_plugins

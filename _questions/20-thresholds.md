@@ -5,7 +5,7 @@ categories: question
 step: results
 ---
 
-It is important to remember that “threshold” is a heuristic for measuring evolutionary history - we try to test and find distributions to make conclusions about finding cutpoints to categorize genomes into groups. A big assumption around thresholds comes from the Neutral Theory of Evolution (cite), which assumes that evolution is driven by neutral mutations occurring at a regular rate, so . 
+It is important to remember that “threshold” is a {% glossary heuristic %} for measuring evolutionary history - we try to test and find distributions to make conclusions about finding cutpoints to categorize genomes into groups. A big assumption around thresholds comes from the Neutral Theory of Evolution (cite), which assumes that evolution is driven by neutral mutations occurring at a regular rate, so . 
 
 Typical reasons we might set and test a threshold is to identify transmission clusters, species cutoffs, or associations with outcomes/exposures of interest. Thresholds are data dependent, and they can potentially change in an analysis based on new information, for example in the context of an outbreak investigation. 
 

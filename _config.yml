@@ -29,12 +29,15 @@ markdown: kramdown
 theme: material-jekyll-theme
 plugins:
   - jekyll-feed
+  - jekyll-glossary_tooltip
 
 themeColor: purple # green, blue, orange, purple, grey
 fixedNav: 'true' # true or false
 
 collections:
   questions:
+    output: true
+  glossary:
     output: true
 
 # Exclude from processing.
