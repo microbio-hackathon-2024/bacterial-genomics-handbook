@@ -21,7 +21,7 @@ permalink: /glossary/
 {% assign x = entry.title | upper | slice 0, 0 %}
 
 {% if x == letter %}
-- [{{ entry.title }}]({{ entry.url }})
+- [{{ entry.title }}]({{ site.baseurl }}{{ entry.url }})
 {% endif %}
 {% endfor %}
 

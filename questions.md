@@ -8,7 +8,7 @@ permalink: /questions/
 
 {% for question in site.questions %}
   {% if question.step == "before_starting" %}
-- [{{ question.title }}]({{ question.url }})
+- [{{ question.title }}]({{ site.baseurl }}{{ question.url }})
   {% endif %}
 {% endfor %}
 
@@ -17,7 +17,7 @@ permalink: /questions/
 
 {% for question in site.questions %}
   {% if question.step == "data_preparation" %}
-- [{{ question.title }}]({{ question.url }})
+- [{{ question.title }}]({{ site.baseurl }}{{ question.url }})
   {% endif %}
 {% endfor %}
 
@@ -25,7 +25,7 @@ permalink: /questions/
 
 {% for question in site.questions %}
   {% if question.step == "qc" %}
-- [{{ question.title }}]({{ question.url }})
+- [{{ question.title }}]({{ site.baseurl }}{{ question.url }})
   {% endif %}
 {% endfor %}
 
@@ -33,7 +33,7 @@ permalink: /questions/
 
 {% for question in site.questions %}
   {% if question.step == "analysis" %}
-- [{{ question.title }}]({{ question.url }})
+- [{{ question.title }}]({{ site.baseurl }}{{ question.url }})
   {% endif %}
 {% endfor %}
 
@@ -41,6 +41,6 @@ permalink: /questions/
 
 {% for question in site.questions %}
   {% if question.step == "results" %}
-- [{{ question.title }}]({{ question.url }})
+- [{{ question.title }}]({{ site.baseurl }}{{ question.url }})
   {% endif %}
 {% endfor %}
