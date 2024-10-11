@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "How do you relate “thresholds” to your outcome of interest? What is a threshold?"
+title: "How do you relate “thresholds” to your outcome of interest?"
 categories: question
 step: results
 ---

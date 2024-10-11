@@ -5,12 +5,14 @@ categories: question
 step: before_starting
 ---
 
-Computational requirements are always vary based on a number of parameters,
-such as the number of samples pr the choice of methods. This problem can
-be approached from both ends: you may want to determine the computational
-requirements for an existing analysis you want to run, or you may be trying
-to design an analysis that can support certain constraints, like being able 
-to run on a laptop.
+![]({{site.baseurl}}/assets/images/06-computational-requirements.svg)
+
+Computational requirements are always varying based on a number of 
+parameters, such as the number of samples pr the choice of methods. 
+This problem can be approached from both ends: you may want to determine 
+the computational requirements for an existing analysis you want to run, 
+or you may be trying to design an analysis that can support certain
+constraints, like being able to run on a laptop.
 
 ## Number of samples
 
@@ -22,11 +24,11 @@ machine processing the data.
 
 ## Reference-based methods
 
-Reference-based methods often require the use of a database. These databases
-can sometimes reach very large sizes, which will require a substantial amount
-of storage to be able to run properly. 
+Reference-based methods often require the use of a {% glossary database %}. 
+These databases can sometimes reach very large sizes, which will require a 
+substantial amount of storage to be able to run properly. 
 
 ## Computational-intensive methods
 
-Some analyses have high computational requirements because they need to process larger amount of data, or tackled computational problems that are harder. For instance, {% term phylogenetics %} analyses will require 
+Some analyses have high computational requirements because they need to process larger amount of data, or tackled computational problems that are harder. For instance, {% glossary phylogenetics %} analyses will require 
 substantially more computer resources.
