@@ -6,3 +6,11 @@
   definition: "A single selected genomic assembly to which reads or assemblies from other samples will be aligned to."
   url: >
     {{ site.baseurl }}/glossary/reference
+- term: Database
+  definition: "A collection of data and metadata, structured for random access and querying."
+  url: >
+    {{ site.baseurl }}/glossary/database
+- term: "Phylogenetics"
+  definition: "The study of the evolutionary history and relationships between individuals."
+  url: >
+    {{ site.baseurl }}/glossary/phylogenetics
