@@ -22,3 +22,7 @@
   definition: "Using chemical, electrical, and optical means to determine the sequence of monomers that comprise a polymer."
   url: >
     {{ site.baseurl }}/glossary/sequencing
+- term: "FASTQ"
+  definition: "A standard file format for storing raw sequencing data and the corresponding quality."
+  url: >
+    {{ site.baseurl }}/glossary/FASTQ
