@@ -32,7 +32,7 @@ started with your own testing:
    at the different defaults and then use it in a downstream analysis. How do 
    the downstream results change?
 
-## Heuristic
+## Heuristics
 
 Tools that are {% glossary heuristic %} usually have different profiles for 
 favoring accuracy over speed. For instance, the DIAMOND protein aligner offers

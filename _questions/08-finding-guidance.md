@@ -9,7 +9,9 @@ Bioinformatics is cross-cutting. Therefore, you might find a coach or mentor in
 a department near you that does work related to evolution, ecology, 
 environmental health, microbiology, biostatistics, or genetics, for example. 
 
-There is also a bright community of microbial bioinformaticians across the globe! Here are some possible options for finding help related to bioinformatics or computational questions: 
+There is also a bright community of microbial bioinformaticians across the globe! 
+Here are some possible options for finding help related to bioinformatics or 
+computational questions: 
 - Bioinformatics-focused slack channels: microbinfie (int), StaPH-B (USA)
 - Code clinics or workshops at your university or center
 - Coding communities including: Github, StackOverflow, Nf-core, The State Public Health Bioinformatics (StaPH-B) community, PG  

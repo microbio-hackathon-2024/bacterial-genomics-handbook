@@ -22,11 +22,14 @@ Primary samples are the samples that you or a collaborator collect for a specifi
 
 - Expensive.
 - Requires your own sequencing resources (or need to organize how to get sequences).
-- You will generally need to deposit your data in public databases (NCBI, GISAID) in order to publish on it, and this is often not trivial to do if your dataset is large and not well-organized.
+- You will generally need to deposit your data in public databases (NCBI, GISAID) 
+in order to publish on it, and this is often not trivial to do if your dataset 
+is large and not well-organized.
 
 ## Secondary sources
 
-Secondary sources are sources where the sample collection and sequencing was done elsewhere for a separate project or purpose. 
+Secondary sources are sources where the sample collection and sequencing was done 
+elsewhere for a separate project or purpose. 
 
 Popular sources of secondary sequences include publicly available databases such as:
 - National Center for Biotechnology Information (NCBI)
@@ -34,7 +37,9 @@ Popular sources of secondary sequences include publicly available databases such
 - European Nucleotide Archive (ENA)
 - DNA Databank of Japan (DDBJ)
 
-NCBI, ENA, and DDBJ are organized in a data-sharing organization called INSDC and synchronize submissions. Usually within a couple of days, any sequence available in one of these is available in all of them.
+NCBI, ENA, and DDBJ are organized in a data-sharing organization called INSDC and 
+synchronize submissions. Usually within a couple of days, any sequence available 
+in one of these is available in all of them.
 
 ### Pros
 
@@ -46,8 +51,8 @@ NCBI, ENA, and DDBJ are organized in a data-sharing organization called INSDC an
 
 ### Cons
 
-- Might be missing or incorrect metadata, such as dates or geographic information
-- Questions you can answer may be limited to the completeness of the available metadata 
-- Other people have access and may be conducting a similar study to you (scooping, but a nicer way of saying this?)
+- Might be missing or incorrect metadata, such as dates or geographic information.
+- Questions you can answer may be limited to the completeness of the available metadata .
+- Other people have access and may be conducting a similar study to you.
 - Don’t always know the context around why things were sampled.
 

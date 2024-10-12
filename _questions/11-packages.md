@@ -25,7 +25,8 @@ is no easy way to get them all together in a language-specific package manager.
 
 In that case, more generic package manager like Conda let you install 
 dependencies in binary form into their own environments. Making separate 
-environments for separate projects also help managing and isolating package versions. For Conda, the [Bioconda](https://bioconda.github.io/) channel
+environments for separate projects also help managing and isolating package 
+versions. For Conda, the [Bioconda](https://bioconda.github.io/) channel
 hosts the most common bioinformatics packages.
 
 If using Conda, make sure to pin your dependencies *all* through Conda, 
@@ -36,7 +37,8 @@ project environment.
 ## Containers
 
 In the case where your dependencies are even harder to manage, you may wish
-to build a {% glossary container %}. Common formats include Docker and Apptainer (formerly Singularity).
+to build a {% glossary container %}. Common formats include Docker and Apptainer 
+(formerly Singularity).
 
 Containers allow to package code and all its dependencies into a filesystem
 completely isolated for the host. They allow freezing dependencies, at the
@@ -44,11 +46,14 @@ cost of a larger storage footprint.
 
 Note that some HPC may ban the use of containers for safety reasons, so 
 it may be best to assess first where you intend your code to run
-(see the [Computational requirements]({{ site.baseurl }}/questions/06-computation-requirements.html) section first). Containers can rescue you from dependency hell but it’s better not to go there if there is a more
-reasonable option.
+(see the [Computational requirements]({{ site.baseurl }}/questions/06-computation-requirements.html) section first). 
+Containers can rescue you from dependency hell but it’s better not to go there 
+if there is a more reasonable option.
 
 ## Virtual Machine
 
-Using a virtual machine (VM) is an alternative to Conda environments (in case Conda can’t be installed) but satisfies the need to isolate different working environments. Virtual machines are quite often impossible to share
-between platforms, so it's recommended to avoid them to make the analysis 
-more reproducible.
+Using a virtual machine (VM) is an alternative to Conda environments (in case 
+Conda can’t be installed) but satisfies the need to isolate different working 
+environments. Virtual machines are quite often impossible to share between 
+platforms, so it's recommended to avoid them to make the analysis more 
+reproducible.

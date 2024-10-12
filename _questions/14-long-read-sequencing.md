@@ -11,9 +11,14 @@ short-read or long-read sequence.
 
 ## Short Reads
 
-Generally, short-read or PacBio long reads are sufficient for sequencing an organism as long as the extraction/libraries are adequate.
+Generally, short-read or PacBio long reads are sufficient for sequencing an 
+organism as long as the extraction/libraries are adequate.
 
-The majority of {% glossary phylogenetics %} or population-structure workflows are based on inferring relationships via single-base changes; relatively few are based on large-scale genomic structural change. Therefore most of these pipelines will want you to have accurate short reads and won’t benefit from the structural information in long reads.
+The majority of {% glossary phylogenetics %} or population-structure workflows 
+are based on inferring relationships via single-base changes; relatively few 
+are based on large-scale genomic structural change. Therefore most of these 
+pipelines will want you to have accurate short reads and won’t benefit from 
+the structural information in long reads.
 
 ## Long reads
 
@@ -23,5 +28,7 @@ The majority of {% glossary phylogenetics %} or population-structure workflows a
 {% endif %}
 {% endfor %}
 
-Long-read is great for trickier genomes, for example, organisms with a high GC content. They can also help in resolving plasmids (see [{{ plasmid_question.title }}]({{ site.baseurl}}{{ plasmid_question.url }})).
+Long-read is great for trickier genomes, for example, organisms with a high GC 
+content. They can also help in resolving plasmids 
+(see [{{ plasmid_question.title }}]({{ site.baseurl}}{{ plasmid_question.url }})).
 

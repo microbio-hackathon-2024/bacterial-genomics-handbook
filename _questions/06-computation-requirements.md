@@ -8,7 +8,7 @@ step: before_starting
 ![]({{site.baseurl}}/assets/images/06-computational-requirements.svg)
 
 Computational requirements are always varying based on a number of 
-parameters, such as the number of samples pr the choice of methods. 
+parameters, such as the number of samples or the choice of methods. 
 This problem can be approached from both ends: you may want to determine 
 the computational requirements for an existing analysis you want to run, 
 or you may be trying to design an analysis that can support certain
@@ -16,7 +16,7 @@ constraints, like being able to run on a laptop.
 
 ## Problem Size
 
-From tge above you get a sense that your computational resources will depend on the amount of data you have, and the complexity of your analysis. 
+From the above you get a sense that your computational resources will depend on the amount of data you have, and the complexity of your analysis. 
 In most instances, a small dataset of a handful of bacterial genomes can be run on a standard laptop, but hundreds or thousands may require the use of a cloud platform, a cluster, or a bigger server. 
 
 ### Number of samples
