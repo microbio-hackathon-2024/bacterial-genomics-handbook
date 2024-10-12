@@ -40,6 +40,8 @@ collections:
   glossary:
     output: true
 
+exclude: ['README.md', 'Gemfile.lock', 'Gemfile']
+
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
