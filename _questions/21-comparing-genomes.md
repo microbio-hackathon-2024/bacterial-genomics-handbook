@@ -31,3 +31,9 @@ SNPs represent single base-pair variations between genomes. SNP-based comparison
 allow high-resolution differentiation of closely related organisms by identifying 
 specific mutations across their genomes but are time-consuming to compute and suffer 
 reduced accuracy in highly diverse sample sets.
+
+## Other typing strategies
+
+Some typing might be based on gene presence or absence, gene structure, or the presence or location of insertion sequences. Another popular approach is the use of hashing, which reduces the size of a genome to a set of integers that can be used for comparison. 
+
+

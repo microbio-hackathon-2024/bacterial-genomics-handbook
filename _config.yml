@@ -26,10 +26,11 @@ github_username:  jekyll
 
 # Build settings
 markdown: kramdown
-theme: material-jekyll-theme
+# theme: material-jekyll-theme
 plugins:
   - jekyll-feed
   - jekyll-glossary_tooltip
+  - jekyll-scholar
 
 themeColor: purple # green, blue, orange, purple, grey
 fixedNav: 'true' # true or false
@@ -39,8 +40,12 @@ collections:
     output: true
   glossary:
     output: true
-  methods:
+  tools:
     output: true
+
+scholar:
+  style: apa
+  source: assets/bibtex
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
