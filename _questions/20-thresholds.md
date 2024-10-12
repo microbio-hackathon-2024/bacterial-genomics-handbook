@@ -8,11 +8,11 @@ step: results
 It is important to remember that *threshold* is a {% glossary heuristic %} for 
 measuring evolutionary history - we try to test and find distributions to make 
 conclusions about finding cutpoints to categorize genomes into groups. A big 
-assumption around thresholds comes from the Neutral Theory of Evolution (cite), 
-which assumes that evolution is driven by neutral mutations occurring at a 
-regular rate. This predictability of divergence then becomes a way for us to 
-make assumptions about calendar time and evolutionary history between two 
-individuals.  
+assumption around thresholds comes from the Neutral Theory of Evolution 
+{% cite kimura1968 %}, which assumes that evolution is driven by neutral mutations 
+occurring at a regular rate. This predictability of divergence then becomes a 
+way for us to make assumptions about calendar time and evolutionary history 
+between two individuals.  
 
 ## Reasoning
 
@@ -34,3 +34,8 @@ important that you know this information about your bacterium of interest:
 - What is known about horizontal gene transfer in the species?
 - What is the epidemiological timeline of interest?
 - What is known about the life history and or niches of your bacterium? 
+
+
+## References
+
+{% bibliography -f references --cited %}
