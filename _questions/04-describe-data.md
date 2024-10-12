@@ -5,12 +5,7 @@ categories: question
 step: analysis
 ---
 
-- Speciation
-- Diversity metrics, descriptives, gene identity 
-- Things to be aware of: 
-    - database version (are you using the most recent version?)
-    - database contents (does database have your organism of interest?)
-    - potential contaminants present in your data (what are you expecting/not expecting)
+## Descriptive Analysis
 
 Descriptive analysis can be useful for familiarizing yourself with data. These can be univariate type questions (How much do I have? What is the distribution of reads or genes in my sample). They can also assess for the presence or absence of information you might be interested in. 
 
