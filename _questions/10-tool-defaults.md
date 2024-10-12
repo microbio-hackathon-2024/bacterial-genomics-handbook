@@ -9,7 +9,7 @@ Some bioinformatics tools have internal default settings for things like
 quality scores, percentage of sequence similarity, or size of different 
 components of sequence data. Default settings could be put into place because 
 of tool testing or benchmarking analysis, but they do not necessarily apply to 
-all datasets.  It’s likely that defaults have been set assuming a certain type 
+all datasets. It’s likely that defaults have been set assuming a certain type 
 of input data and analytical aim. If your input data or analytical aims diverge 
 significantly from the software authors, changing defaults could help to perform 
 more appropriate analysisBefore you use a tool, get familiar with its purpose 
