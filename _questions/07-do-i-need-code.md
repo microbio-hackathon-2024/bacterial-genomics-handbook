@@ -1,6 +1,6 @@
 ---
 layout: page
-title:  "Do I need to code it? Are there workflows out there?"
+title:  "Do I need to code my analysis?"
 categories: question
 step: analysis
 ---
