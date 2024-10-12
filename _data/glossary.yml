@@ -14,3 +14,11 @@
   definition: "The study of the evolutionary history and relationships between individuals."
   url: >
     {{ site.baseurl }}/glossary/phylogenetics
+- term: "Container"
+  definition: "A means of packaging and distributing software and its dependencies in a bottled filesystem."
+  url: >
+    {{ site.baseurl }}/glossary/container
+- term: "Sequencing"
+  definition: "Using chemical, electrical, and optical means to determine the sequence of monomers that comprise a polymer."
+  url: >
+    {{ site.baseurl }}/glossary/sequencing
