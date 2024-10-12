@@ -32,7 +32,8 @@ allow high-resolution differentiation of closely related organisms by identifyin
 specific mutations across their genomes but are time-consuming to compute and suffer 
 reduced accuracy in highly diverse sample sets.
 
-## Other typing strategies: 
+## Other typing strategies
+
 Some typing might be based on gene presence or absence, gene structure, or the presence or location of insertion sequences. Another popular approach is the use of hashing, which reduces the size of a genome to a set of integers that can be used for comparison. 
 
 
