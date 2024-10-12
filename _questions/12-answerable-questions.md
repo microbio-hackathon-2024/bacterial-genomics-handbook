@@ -12,6 +12,8 @@ collections will lend themselves more to your study design. Take your time and
 start by moving from more descriptive analyses. What you discover here can help 
 you come up with unique hypotheses to test. 
 
+![]({{site.baseurl}}/assets/images/12-answerable-questions.svg)
+
 Some common successful use cases and applications of microbial genomics include:  
 
 - Outbreak analysis.
