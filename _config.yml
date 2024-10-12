@@ -30,6 +30,7 @@ theme: material-jekyll-theme
 plugins:
   - jekyll-feed
   - jekyll-glossary_tooltip
+  - jekyll-scholar
 
 themeColor: purple # green, blue, orange, purple, grey
 fixedNav: 'true' # true or false
