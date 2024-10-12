@@ -40,7 +40,7 @@ collections:
     output: true
   glossary:
     output: true
-  methods:
+  tools:
     output: true
 
 scholar:
