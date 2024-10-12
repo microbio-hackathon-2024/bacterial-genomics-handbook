@@ -2,7 +2,8 @@
 layout: tools
 title:  "Kraken2"
 categories: tools
-tags: taxonomic_profiling
+section: "Taxonomic Profiling"
+homepage: "https://ccb.jhu.edu/software/kraken2/"
 ---
 
 Kraken 2 {% cite wood2019 %} is a taxonomic profilers using exact k-mer matches 
